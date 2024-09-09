@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String[] array = {"1,3-5", "2", "3-4,5"};// пример из задания создание массива строк
+        String[] array = {"1,3-5", "2", "3-4,5"};// пример из задания
         Port port = new Port(array);
         Port port2 = new Port(array);
         JFrame frame = new JFrame("Окно пользователя");
